@@ -104,26 +104,26 @@ public class Exam {
                 System.out.println("        A. IF Statement");
                 System.out.println("        B. IF ELSE STATEMENT");
                 System.out.println("        C. IF ELSE IF STATEMENT");
-                System.out.print("    Enter your choice here =>");
+                System.out.print("      Enter your choice here =>");
                 String option = input.nextLine();
-                System.out.print("Enter an Integer=>");
+                System.out.print("      Enter an Integer=>");
                 int number = input.nextInt();
                 input.nextLine();
                 if (option.equalsIgnoreCase("A")) {
                     if (number % 2 == 0)
-                        System.out.println("The integer " + number + "is an" + "EVEN number.");
+                        System.out.println("The integer " + number + " is an " + "EVEN number.");
                     if (number % 2 != 0)
-                        System.out.println("The integer " + number + "is an " + "ODD number.");
+                        System.out.println("The integer " + number + " is an " + "ODD number.");
                 } else if (option.equalsIgnoreCase("B")) {
                     if (number % 2 == 0)
-                        System.out.println("The integer " + number + "is an" + "EVEN number.");
+                        System.out.println("The integer " + number + " is an " + "EVEN number.");
                     else
-                        System.out.println("The integer " + number + "is an " + "ODD number.");
+                        System.out.println("The integer " + number + " is an " + "ODD number.");
                 } else if (option.equalsIgnoreCase("C")) {
                     if (number % 2 == 0)
-                        System.out.println("The integer " + number + "is an" + "EVEN number.");
+                        System.out.println("The integer " + number + " is an " + "EVEN number.");
                     else if (number % 2 != 0)
-                        System.out.println("The integer " + number + "is an " + "ODD number.");
+                        System.out.println("The integer " + number + " is an " + "ODD number.");
                 }
                 System.out.print("Do you want to try again[Y] to return to Using Decision Control Structures menu " +
                         "and [N] to return to the main Menu. =>");
@@ -135,29 +135,30 @@ public class Exam {
                     System.out.println("        A. IF Statement");
                     System.out.println("        B. IF ELSE STATEMENT");
                     System.out.println("        C. IF ELSE IF STATEMENT");
-                    System.out.print("    Enter your choice here =>");
+                    System.out.print("      Enter your choice here =>");
                     option = input.nextLine();
-                    System.out.print("Enter an Integer=>");
+                    System.out.print("      Enter an Integer=>");
                     number = input.nextInt();
                     input.nextLine();
                     if (option.equalsIgnoreCase("A")) {
                         if (number % 2 == 0)
-                            System.out.println("The integer " + number + "is an" + "EVEN number.");
+                            System.out.println("The integer " + number + " is an " + "EVEN number.");
                         if (number % 2 != 0)
-                            System.out.println("The integer " + number + "is an " + "ODD number.");
+                            System.out.println("The integer " + number + " is an " + "ODD number.");
                     } else if (option.equalsIgnoreCase("B")) {
                         if (number % 2 == 0)
-                            System.out.println("The integer " + number + "is an" + "EVEN number.");
+                            System.out.println("The integer " + number + " is an " + "EVEN number.");
                         else
-                            System.out.println("The integer " + number + "is an " + "ODD number.");
+                            System.out.println("The integer " + number + " is an " + "ODD number.");
                     } else if (option.equalsIgnoreCase("C")) {
                         if (number % 2 == 0)
-                            System.out.println("The integer " + number + "is an" + "EVEN number.");
+                            System.out.println("The integer " + number + " is an " + "EVEN number.");
                         else if (number % 2 != 0)
-                            System.out.println("The integer " + number + "is an " + "ODD number.");
+                            System.out.println("The integer " + number + " is an " + "ODD number.");
                     }
                     System.out.print("Do you want to try again[Y] to return to Using Decision Control Structures menu" +
                             " and [N] to return to the main Menu. =>");
+                    tryChoice = input.nextLine();
                 }
                 if (tryChoice.equalsIgnoreCase("N")) {
                     menu = true;

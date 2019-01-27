@@ -71,7 +71,8 @@ public class Exam {
                 System.out.println("a. Sum =>" + (firstInt + secondInt));
                 System.out.println("b. Difference=>" + (firstInt - secondInt));
                 System.out.println("c. Product=>" + (firstInt * secondInt));
-                System.out.println("d. Quotient=>" + (firstInt / secondInt));
+                double quotient = (double) firstInt / (double) secondInt;
+                System.out.println("d. Quotient=>" + quotient);
                 System.out.print("Do you want to try again[Y] to return to Using Arithmetic Operation" +
                         " menu and [N] to return to the main Menu. =>");
                 String tryChoice = input.nextLine();
@@ -86,7 +87,8 @@ public class Exam {
                     System.out.println("a. Sum =>" + (firstInt + secondInt));
                     System.out.println("b. Difference=>" + (firstInt - secondInt));
                     System.out.println("c. Product=>" + (firstInt * secondInt));
-                    System.out.println("d. Quotient=>" + (firstInt / secondInt));
+                    quotient = (double) firstInt / (double) secondInt;
+                    System.out.println("d. Quotient=>" + quotient);
                     System.out.print("Do you want to try again[Y] to return to Using Arithmetic Operation " +
                             "menu and [N] to return to the main Menu. =>");
                     tryChoice = input.nextLine();
@@ -211,6 +213,7 @@ public class Exam {
                     }
                     System.out.print("Do you want to try again[Y] to return to Single Array menu " +
                             "and [N] to return to the main Menu. =>");
+                    tryChoice = input.nextLine();
                 }
                 if (tryChoice.equalsIgnoreCase("N")) {
                     menu = true;
